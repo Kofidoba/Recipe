@@ -21,3 +21,12 @@ img{
 article{
     margin-left: 3rem;
 }
+.table2{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+caption{
+    border: 1px solid grey ;
+color:  lightgreen;
+}
