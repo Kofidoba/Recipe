@@ -1,0 +1,23 @@
+h1{
+    margin: 0px;
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+nav{
+    background-color: lightgreen;
+    text-decoration: underline;
+    color: blue;
+    width: 20rem;
+}
+nav ul {
+    padding-left: 25px;
+}
+img{
+    border:5px solid black;
+    padding:4px;
+    background-color: lightgrey;
+}
+article{
+    margin-left: 3rem;
+}
