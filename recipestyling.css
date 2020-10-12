@@ -1,14 +1,27 @@
+body{
+    font-size: 120%;
+}
 h1{
+    position: fixed;
+    top: 0px;
+    width: 100%;
     margin: 0px;
     text-align: center;
     background-color: green;
     color: white;
 }
 nav{
+    opacity: 0.8;
+    width: 20em;
+    position: fixed;
+    top: 4rem;
     background-color: lightgreen;
     text-decoration: underline;
     color: blue;
     width: 20rem;
+}
+nav:hover{
+    opacity: 1.0;
 }
 nav ul {
     padding-left: 25px;
@@ -19,7 +32,11 @@ img{
     background-color: lightgrey;
 }
 article{
+    margin: auto;
+    max-width: 50rem;
+    min-width: 30rem;
     margin-left: 3rem;
+    margin-top: 4rem;
 }
 .table2{
     border: 1px solid black;
